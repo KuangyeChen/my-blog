@@ -1,0 +1,29 @@
+---
+title: 使用Next.js搭建静态博客
+date: '2022-04-16'
+tags: ['next-js', 'web']
+draft: false
+summary: 使用Next.js搭建一个静态博客，用GitHub和Vercel托管。
+---
+
+<TOCInline toc={props.toc} asDisclosure toHeading={2} />
+
+# 前言
+
+很久以前弄过一个 WordPress 的博客，但是没怎么写就荒废了。一部分原因是管理起来比较麻烦（大部分原因是懒 😑）。
+
+这段时间上海疫情被关在家里没事做了，想学点什么，所以准备再把个人博客搞起来，记录一下这个过程。作为一个算法工程师没有任何前端经验，在网上调研了一番觉得[Jamstack](https://jamstack.org/)这个概念很酷炫，看起来也很方便（划重点），遂决定搞一个静态博客。又调研了一番，觉得[Next.js](https://nextjs.org/)好像比较酷炫，就决定是你了。
+
+# Next.js
+
+Next.js 是一个基于 React 的前端框架，主要用于静态网站，静态生成网站的形式有两种，一种是在纯静态生成，在 build 的时候把所有页面生成好；另一种是服务器端渲染，针对每个请求生成页面 html。一个静态博客当然是纯静态生成就完事了。具体可以参考 Next.js 的[doc](https://nextjs.org/docs/getting-started)这里不多介绍这个框架的细节，我也不是搞前端的。
+
+# 开始一个 Next.js 项目
+
+可以看 doc 从零开始撸，但是我选择 fork 一个现成的大模板。
+
+```bash
+npx degit timlrx/tailwind-nextjs-starter-blog#typescript
+```
+
+这个项目的配置可以看[readme](https://github.com/timlrx/tailwind-nextjs-starter-blog)或者[demo](https://tailwind-nextjs-starter-blog.vercel.app/)。

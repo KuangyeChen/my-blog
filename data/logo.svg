@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg stroke="currentColor" width="72.56064453125px" height="105.60000305175781px" xmlns="http://www.w3.org/2000/svg" viewBox="213.719677734375 22.199998474121095 72.56064453125 105.60000305175781" style="background: rgba(89, 104, 134, 0);" preserveAspectRatio="xMidYMid"><defs><filter id="editing-hover" x="-100%" y="-100%" width="300%" height="300%"><feFlood flood-color="rgba(7.110283018867921%,26.724840748987543%,42.726190476190474%,0)" result="flood"></feFlood><feComposite operator="in" in2="SourceAlpha" in="flood" result="shadow"></feComposite><feOffset dx="15.2" dy="3.6" in="SourceGraphic" result="offset-1"></feOffset><feOffset dx="-15.2" dy="-3.6" in="shadow" result="offset-2"></feOffset><feMerge><feMergeNode in="offset-2"></feMergeNode><feMergeNode in="offset-1"></feMergeNode></feMerge></filter></defs><g filter="url(#editing-hover)"><g transform="translate(230.07026135921478, 93.03999519348145)"><path d="M8.78 0L1.60 0L1.60-36.08L8.74-36.08L8.74-21.63L12.10-36.08L19.36-36.08L15.33-19.57L20.20 0L12.73 0L8.78-17.47L8.78 0ZM32.59 0L25.79 0L25.79-11.89L20.03-36.08L27.17-36.08L29.19-23.86L31.21-36.08L38.35-36.08L32.59-11.89L32.59 0Z" fill="currentColor"></path></g></g><style>text {
+  font-size: 64px;
+  font-family: Arial;
+  dominant-baseline: central;
+  text-anchor: middle;
+}</style></svg>
