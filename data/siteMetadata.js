@@ -2,7 +2,7 @@ const siteMetadata = {
   title: '日广里予的博客',
   author: '日广里予',
   headerTitle: '日广里予的博客',
-  description: '',
+  description: '一个随意的个人博客',
   language: 'zh-CN',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.kuangyechen.com',

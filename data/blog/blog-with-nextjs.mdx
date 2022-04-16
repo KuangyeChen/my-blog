@@ -8,8 +8,6 @@ summary: 使用Next.js搭建一个静态博客，用GitHub和Vercel托管。
 
 <TOCInline toc={props.toc} asDisclosure toHeading={2} />
 
-# 前言
-
 很久以前弄过一个 WordPress 的博客，但是没怎么写就荒废了。一部分原因是管理起来比较麻烦（大部分原因是懒 😑）。
 
 这段时间上海疫情被关在家里没事做了，想学点什么，所以准备再把个人博客搞起来，记录一下这个过程。作为一个算法工程师没有任何前端经验，在网上调研了一番觉得[Jamstack](https://jamstack.org/)这个概念很酷炫，看起来也很方便（划重点），遂决定搞一个静态博客。又调研了一番，觉得[Next.js](https://nextjs.org/)好像比较酷炫，就决定是你了。
@@ -27,3 +25,9 @@ npx degit timlrx/tailwind-nextjs-starter-blog#typescript
 ```
 
 这个项目的配置可以看[readme](https://github.com/timlrx/tailwind-nextjs-starter-blog)或者[demo](https://tailwind-nextjs-starter-blog.vercel.app/)。
+
+# 部署
+
+推上 GitHub，去[Vercel](https://vercel.com/)上导入项目，然后把自己的域名指向 Vercel 的 DNS。Next.js 是 Vercel 开源的项目，so everything should just work。
+
+希望我之后可以坚持写写东西 😎。
